@@ -12,3 +12,49 @@ img,
 video {
   display: block;
 }
+
+body {
+  color: #000;
+  text-align: center;
+  font-family: Lato;
+  font-size: 50px;
+  font-weight: 700;
+  background: #ffffff;
+}
+
+.box {
+  background: #ffffff;
+  padding: 10 px;
+}
+
+.section {
+  background: #ebead2;
+  padding: 15px;
+}
+
+.section-1 {
+  display: flex;
+}
+.section-1 .box {
+  width: 425px;
+}
+
+.section-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-2 .box {
+  width: 849px;
+  width: 50%;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.section-3 .box {
+  width: 100px;
+}
